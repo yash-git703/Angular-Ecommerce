@@ -13,6 +13,7 @@ import { CartPageComponent } from './cart-page/cart-page.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { MyOrdersComponent } from './my-orders/my-orders.component';
 import { AlertBoxComponent } from './alert-box/alert-box.component';
+import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
   { path:'',component:HomeComponent},
@@ -55,9 +56,9 @@ const routes: Routes = [
   },
   {
     path:'alertbox',component:AlertBoxComponent
-  }
- 
- 
+  },
+
+  { path: 'contact', component: ContactComponent },
 
 ];
 

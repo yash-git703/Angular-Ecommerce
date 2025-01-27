@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg  nav-styel">
   <div class="container-fluid" >
-    <a class="navbar-logo text-color" routerLink="/">E-Commerce</a>
+    <a class="navbar-logo text-color:rgb(66, 159, 212)" routerLink="/">Shoppify</a>
     
     <button class="navbar-toggler  nav-tex" type="button" data-bs-toggle="collapse"
       data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -47,7 +47,7 @@
       <div [ngSwitch]="menuType">
         <ul *ngSwitchCase="'default'" class="navbar-nav  mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link  nav-text" routerLink="user-auth" aria-current="page">Login/SingUp</a>
+            <a class="nav-link  nav-text" routerLink="user-auth" aria-current="page">Login/SignUp</a>
           </li>
           <li class="nav-item">
             <a class="nav-link nav-text" href routerLink="cart-page">Cart({{cartItemsNumber}})</a>

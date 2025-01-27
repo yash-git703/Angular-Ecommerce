@@ -23,6 +23,9 @@ import { CheckoutComponent } from './checkout/checkout.component';
 import { MyOrdersComponent } from './my-orders/my-orders.component';
 import { AlertBoxComponent } from './alert-box/alert-box.component';
 
+import { ReactiveFormsModule } from '@angular/forms';
+import { ContactComponent } from './contact/contact.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,7 +42,9 @@ import { AlertBoxComponent } from './alert-box/alert-box.component';
     CartPageComponent,
     CheckoutComponent,
     MyOrdersComponent,
-    AlertBoxComponent
+    AlertBoxComponent,
+    ContactComponent,
+ 
   ],
   imports: [
     BrowserModule,
@@ -48,7 +53,8 @@ import { AlertBoxComponent } from './alert-box/alert-box.component';
     FormsModule,
     HttpClientModule,
     FontAwesomeModule,
-    NgbModule
+    NgbModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

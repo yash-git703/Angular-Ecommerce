@@ -42,7 +42,7 @@
 }
 .suggested-result li a{
     cursor: pointer;
-    color: green
+    color: rgb(66, 159, 212)
 }
 .search-margin{
     margin-right: 140px;
