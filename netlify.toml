@@ -1,8 +1,9 @@
 [build]
   command = "ng build --configuration=production "
   publish = "dist/E-Commerce-Application-Angular-Project"
+    functions = "netlify/functions"
 
 [[redirects]]
   from = "/api/*"
-  to = "http://localhost:3000/:splat"
+   to = "/.netlify/functions/json-server"
   status = 200
