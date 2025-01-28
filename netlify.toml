@@ -1,0 +1,8 @@
+[build]
+  command = "ng build --configuration=production "
+  publish = "dist/E-Commerce-Application-Angular-Project"
+
+[[redirects]]
+  from = "/api/*"
+  to = "http://localhost:3000/:splat"
+  status = 200

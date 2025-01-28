@@ -156,6 +156,12 @@
       "name": "peter",
       "email": "peter@e.com",
       "password": "123456"
+    },
+    {
+      "id": "2542",
+      "name": "peter",
+      "email": "peter@test.com",
+      "password": "abc123"
     }
   ],
   "cart": [],
@@ -183,6 +189,30 @@
       "contact": "121312321",
       "totalPrice": 43450,
       "userId": "c1c1"
+    },
+    {
+      "id": "b195",
+      "email": "peter@test.com",
+      "address": "703 , DLf",
+      "contact": "234344353535",
+      "totalPrice": 41920,
+      "userId": "2542"
+    },
+    {
+      "id": "14a3",
+      "email": "peter@test.com",
+      "address": "703 , DLf",
+      "contact": "234344353535",
+      "totalPrice": 100,
+      "userId": "2542"
+    },
+    {
+      "id": "de42",
+      "email": "peter@test.com",
+      "address": "703 , DLf",
+      "contact": "234344353535",
+      "totalPrice": 100,
+      "userId": "2542"
     }
   ]
 }

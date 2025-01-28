@@ -47,10 +47,14 @@ const routes: Routes = [
     path:'cart-page',component:CartPageComponent
   }
   ,
+  // {
+  //   path:'checkout',
+  //   loadChildren:()=>import('./checkout/checkout.module').then(m => m.CheckoutModule)
+    
+  // } ,
   {
     path:'checkout',component:CheckoutComponent
-    
-  } ,
+  },
   {
     path:'my-order',component:MyOrdersComponent
   },
